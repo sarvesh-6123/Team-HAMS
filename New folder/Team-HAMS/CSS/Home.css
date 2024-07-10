@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.home img {
+    z-index: 1000;
+    opacity: 0.5;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+
+}
+
+nav {
+    z-index: 1;
+    background-color: rgba(124, 124, 124, 0.26);
+}
+
+.contents {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cards,
+.hero {
+    padding-top: 5rem;
+}
+
+
+.hero .image {
+    display: flex;
+    justify-content: center;
+}
+
+.hero .image img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+footer {
+    background-color: rgb(207, 205, 205);
+}
